@@ -1,0 +1,432 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+body {
+    background-color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+.navbar{
+  position: fixed !important;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 3.4em;
+  padding: 15px;
+  width: 3.4em;
+}
+.logo1{
+  float: left;
+  background-color: white;
+  padding-left: 1em;
+}
+
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: white;
+
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+#hero {
+  margin: 0;
+  height: 50em;
+}
+
+.name{
+  font-size: 2em;
+}
+
+.developer {
+  font-size: 1.5em;
+  line-height: .8em;
+}
+
+video {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    z-index: -100;
+}
+.stopfade {
+   opacity: .5;
+}
+
+#logo {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight:100;
+  background: rgba(0,0,0,0.3);
+  color: white;
+  padding-left: 2rem;
+  width: 33%;
+  margin:2rem;
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+
+#logo button {
+  display: block;
+  width: 80%;
+  padding: .4rem;
+  border: none;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .3s background;
+}
+#logo button:hover {
+   background: rgba(0,0,0,0.5);
+}
+
+#pause {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background:rgba(0,0,0,0.5);
+  padding: .5rem;
+  transition: .6s background;
+
+}
+#pause:hover{
+  background:rgba(0,0,0,0.9);
+}
+
+#heroLogo{
+  width: 80%;
+}
+
+#logoContainer{
+  text-align: center;
+}
+
+#skills{
+  background: white;
+  height: 45em;
+}
+
+.skillContainer{
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 1em;
+  width: 100%;
+}
+
+.titleBlack{
+  font-size: 3em;
+  padding: 0.5em 0 1em 0;
+  font-family: "Josefin Sans", sans-serif;
+
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+width:200px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+#portfolio{
+  height: 71em;
+  background-color: #a15f9c;
+}
+
+.circleBorder{
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  background-color: white;
+}
+
+.circleBorder1{
+  border-radius: 60%;
+  width: 80%;
+  height: 16.375em;
+  background-color: white;
+}
+
+.paddingPortfolio{
+  padding: 1em 0 2em;
+}
+
+.wireFramesModal{
+  width: 90%;
+  background-color: white;
+
+}
+
+.modal-header{
+  background-color: #a15f9c;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.modal-header h3{
+  font-size: 2.5em;
+}
+
+.modal-footer{
+  background-color: #a15f9c;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.modal-footer p{
+  font-size: 2em;
+
+}
+
+#appFlowSize{
+  height: 50%;
+  width: 50%;
+
+}
+
+.centering{
+  left: 25%;
+}
+
+#personaSizing{
+  height: 60%;
+  width: 60%;
+}
+
+.smallerHeaderText{
+  font-size: 0.7em !important;
+  padding: none;
+}
+
+.smallerText p{
+  font-size: 1em !important;
+}
+
+#dishwasherSizing{
+  height: 20%;
+  width: 20%;
+}
+
+.centering1{
+  left:40%;
+}
+
+.dataSize{
+  height: 20%;
+  width: 20%;
+}
+
+
+
+.certificateSize{
+  height: 30%;
+  width: 30%;
+}
+
+.centering2{
+  left: 35%;
+}
+
+.cattireSize{
+  height: 60%;
+  width: 60%;
+}
+
+.centering3{
+  left: 20%;
+}
+
+.signupSize{
+  height: 25%;
+  width: 25%;
+}
+
+.centering4{
+  left: 40%;
+}
+
+.centering5{
+  left: 5%;
+}
+
+
+#about{
+  background-color: white;
+}
+
+#aliceSize{
+  height: 50%;
+  width: 50%;
+}
+
+.pictureContainer{
+  float: left;
+  display: inline-block;
+  width: 50%;
+
+
+
+}
+
+.textContainer{
+  float: left;
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: "Josefin Sans", sans-serif;
+  padding-right: 4em;
+  line-height: 2em;
+}
+
+.titleBackground{
+  background-color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3em;
+  margin-top: 0;
+  padding-top: 1em;
+  padding-left: 1em;
+
+}
+
+.titleBackground1{
+  background-color: #4daeb7;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3em;
+  margin-top: 0;
+  padding-top: 1em;
+  padding-left: 1em;
+}
+
+#contact{
+  background-color: #4daeb7;
+  height: 20em;
+}
+
+.contactInfo{
+  padding-left: 3em;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3em;
+  text-align: center;
+
+}
+
+.endFooter{
+  background-color: #a15f9c;
+  height: 5em;
+  text-align: center;
+}
+
+#footerLogo{
+  height: 5em;
+  width: 5em;
+  padding-top: .5em;
+}
+
+@media screen and (max-width: 500px) {
+  div{width:70%;}
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(../FinalProject/images/code.mp4) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
