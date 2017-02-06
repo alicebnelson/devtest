@@ -57,18 +57,35 @@ console.log("Welcome to My Portfolio!");
   $(".circleBorder").on("click",function(){
     var id=$(this).attr("id");
     switch(id){
-      case "wireFrames":
-        $("#myModal1").modal("show");
+      case "carolpersona":
+        $("#myModal13").modal("show");
         break;
-      case "infoArch":
-        $("#myModal2").modal("show");
+      case "sitemap":
+        $("#myModal14").modal("show");
         break;
-      case "appFlow":
-        $("#myModal3").modal("show");
+      case "annotaions":
+        $("#myModal15").modal("show");
         break;
-      case "persona":
-        $("#myModal4").modal("show");
+      case "demoReel":
+        $("#myModal16").modal("show");
         break;
+        // below is the old code.
+        case "persona":
+          $("#myModal4").modal("show");
+          break;
+        case "appFlow":
+          $("#myModal3").modal("show");
+          break;
+        case "infoArch":
+          $("#myModal2").modal("show");
+          break;
+        case "wireFrames":
+          $("#myModal1").modal("show");
+          break;
+
+
+
+          //rearranging code above
       case "dishwasher":
         $("#myModal5").modal("show");
         break;
