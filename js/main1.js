@@ -58,7 +58,7 @@ console.log("Welcome to My Portfolio!");
     var id=$(this).attr("id");
     switch(id){
 
-      case "dashboadrd":
+      case "dashboard":
         $("#myModal20").modal("show");
         break;
       case "SHApp":
