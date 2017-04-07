@@ -57,6 +57,20 @@ console.log("Welcome to My Portfolio!");
   $(".circleBorder").on("click",function(){
     var id=$(this).attr("id");
     switch(id){
+
+      case "dashboard":
+        $("#myModal20").modal("show");
+        break;
+      case "SHApp":
+        $("#myModal21").modal("show");
+        break;
+      case "erd":
+        $("#myModal22").modal("show");
+        break;
+      case "penterra":
+        $("#myModal23").modal("show");
+        break;
+
       case "carolpersona":
         $("#myModal13").modal("show");
         break;
