@@ -1,7 +1,8 @@
 * {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+     box-sizing: border-box;
+     -ms-box-sizing: border-box; /* IE */
 }
 
 body {
@@ -147,6 +148,36 @@ width:200px;
   font-family: "Josefin Sans", sans-serif;
   line-height: 2em;
 }
+
+
+/*GROW*/
+
+.pic {
+
+
+  height: 255px;
+  width: 255px;
+  overflow: hidden;
+}
+
+.grow img {
+  height: 220px;
+  width: 220px;
+
+  -webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+       -o-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+          transition: all .5s ease;
+}
+
+.grow img:hover {
+  width: 240px;
+  height: 240px;
+}
+
+
+
 #appFlowSize{
   height: 50%;
   width: 50%;
