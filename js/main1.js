@@ -68,7 +68,7 @@ console.log("Welcome to My Portfolio!");
         $("#myModal52").modal("show");
         break;
       case "makers":
-        $("#myModal33").modal("show");
+        $("#myModal53").modal("show");
         break;
         
       case "dashboard":
