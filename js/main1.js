@@ -58,6 +58,19 @@ console.log("Welcome to My Portfolio!");
     var id=$(this).attr("id");
     switch(id){
 
+       case "lagana":
+        $("#myModal50").modal("show");
+        break;
+      case "laganamob":
+        $("#myModal51").modal("show");
+        break;
+      case "school":
+        $("#myModal52").modal("show");
+        break;
+      case "makers":
+        $("#myModal33").modal("show");
+        break;
+        
       case "dashboard":
         $("#myModal20").modal("show");
         break;
